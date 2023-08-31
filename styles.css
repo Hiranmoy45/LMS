@@ -1,0 +1,51 @@
+ /*contact r css abossoi lagbe */
+
+::selection{
+    color: #fff;
+    background: #6665ee;
+}
+.containerhh{
+    position: static;
+    top: 70%;
+    left: 50%;
+    padding-top: 100px;
+}
+.containerhh .form{
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.containerhh .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+}
+.containerhh .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.containerhh .form form .forget-pass a{
+   font-size: 15px;
+}
+.containerhh .form form .button{
+    background: #6665ee;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.containerhh .form form .button:hover{
+    background: #5757d1;
+}
+.containerhh .form form .link{
+    padding: 5px 0;
+}
+.containerhh .form form .link a{
+    color: #6665ee;
+}
+.containerhh .login-form form p{
+    font-size: 14px;
+}
+.containerhh .row .alert{
+    font-size: 14px;
+}
+

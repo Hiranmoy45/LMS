@@ -1,0 +1,180 @@
+:root{
+    
+    --purple:#0E94F0;
+    --pink:#0E94F0;
+    --gradient:linear-gradient(90deg, var(--purple), var(--pink));
+}
+section{
+    min-height: 100vh;
+    padding:0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+.btnh{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.5rem 2rem;
+    border-radius: 5rem;
+    background:#007bff;
+    font-size: 1.7rem;
+    color:#fff;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    transition: all .3s linear;
+    
+}
+
+.btnh:hover{
+    transform: scale(1.1);
+    color:#fff;
+}
+
+.heading{
+    text-align: center;
+    background:var(--gradient);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding:1rem;
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+}
+
+.homeh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(/../images/desktop-final-bg-replaced-sign.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homeh .imageh img{
+    width:40vw;
+    animation: float 3s linear infinite;
+    display: none;
+}
+.homeh .contenth{
+   
+    color:#333;
+    margin: left 5%;
+    margin-right: 60%;
+    
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(0rem);
+        /* transform: translateY(-3.5rem); */
+    }
+}
+
+.homeh .contenth h3{
+    font-size: 5.5rem;
+    color:#333;
+    text-transform: uppercase;
+    
+}
+
+.homeh .contenth h3 span{
+    color:var(--pink);
+    text-transform: uppercase;
+   
+}
+
+.homeh .contenth p{
+    font-size: 1.7rem;
+    color:#666;
+    padding:1rem 0;
+
+    
+}
+/* readmore css open */
+.hide{
+    display: none;
+}
+/* Custom About us css open */
+.publication{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin-top: 10px;
+    /*background-color: rgb(0 0 0 / 20%);*/
+   padding-left: 10%;
+   padding-right: 10%;
+   border-radius: 30px;
+}
+.publication hr{
+    color:red;
+  height: 3px;
+}
+.publication p{
+    text-align: justify;
+   font-size: 1.5rem; 
+}
+
+/* Custom About us css closed */
+
+
+
+/* readmore css closed */
+.sir{
+    padding-top: 20px;
+}
+@media (max-width:995px){
+    .sir{
+        display: none;
+    }
+    .publication p{
+    text-align: justify;
+   font-size: 1rem; 
+}
+}
+@media (max-width:768px){
+    
+    .homeh{
+        flex-flow: column-reverse;
+        background:url(/../images/mobile-bg.png) no-repeat;
+    }
+   
+
+    .homeh .imageh img{
+        margin-bottom: 30px;
+        margin-top: -40px;
+        width:40vw;
+        
+        display:block ;
+    }
+
+    .homeh .contenth h3{
+        font-size: 3.6rem;
+   
+    }
+
+    .homeh .contenth p{
+        font-size: 1.5rem;
+       
+    }
+    .homeh .contenth{
+   
+        margin-right: 0%;
+        
+    }
+    /*.hide{*/
+    /*    display: inline;*/
+    /*}*/
+    /*.mobileoff{*/
+    /*    display: none;*/
+    /*}*/
+}
+
